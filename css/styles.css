@@ -28,3 +28,29 @@
 .click:hover {
   text-decoration: underline;
 }
+
+#walrusInfo {
+  display: none;
+}
+
+#whaleInfo {
+  display: none;
+}
+
+#infoToggleWalrus { 
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#infoToggleWalrus:hover {
+  text-decoration: underline;
+}
+
+#infoToggleWhale { 
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#infoToggleWhale:hover {
+  text-decoration: underline;
+}

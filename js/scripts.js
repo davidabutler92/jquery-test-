@@ -1,10 +1,17 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+    $("#walrus-showing").slideToggle();
+    $("#walrus-hidden").slideToggle();
   });
+  $("#infoToggleWalrus").click(function() {
+    $("#walrusInfo").fadeIn();  
+  });
+  
   $(".click").click(function() {
-    $("#whale-showing").toggle();
-    $("#whale-hidden").toggle();
+    $("#whale-showing").fadeToggle();
+    $("#whale-hidden").fadeToggle();
+  });
+  $("#infoToggleWhale").click(function() {
+    $("#whaleInfo").fadeIn();
   });
 });
