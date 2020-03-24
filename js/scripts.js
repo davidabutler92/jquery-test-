@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $("button#black").click(function() {
+    $("body").toggleClass("black-background");
+  });
   $(".clickable").click(function() {
     $("#walrus-showing").slideToggle();
     $("#walrus-hidden").slideToggle();
@@ -15,3 +18,6 @@ $(document).ready(function() {
     $("#whaleInfo").fadeIn();
   });
 });
+
+
+
