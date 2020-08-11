@@ -1,61 +1,29 @@
 #walrus-showing {
-  display: none;
+  display:none
+}
+
+.clickable {
+  text-decoration: unset;
+  color: red;
+  cursor: grab;
 }
 
 #whale-showing {
-  display: none; 
-}
-
-#blue {
-  color: red;
-
-}
-
-.clickable { 
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable:hover {
-  text-decoration: underline;
-}
-
-.click { 
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.click:hover {
-  text-decoration: underline;
-}
-
-#walrusInfo {
   display: none;
 }
 
-#whaleInfo {
+.click {
+  text-decoration: solid;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.body {
   display: none;
 }
 
-#infoToggleWalrus { 
-  cursor: pointer;
-  color: #0088cc;
-}
-
-#infoToggleWalrus:hover {
-  text-decoration: underline;
-}
-
-#infoToggleWhale { 
-  cursor: pointer;
-  color: #0088cc;
-}
-
-#infoToggleWhale:hover {
-  text-decoration: underline;
-}
-
-.black-background {
-  background-color: black;
-  color: white;
+#black {
+  display:block;
+  margin: 0 auto;
+ 
 }
